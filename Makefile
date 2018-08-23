@@ -1,5 +1,5 @@
 
-t: t.l t.y
+t: t.l t.y Makefile test.tcl
 	bison -r all -d t.y
 	flex --header-file=lex.yy.h t.l
 	gcc -c lex.yy.c -o lex.yy.o
