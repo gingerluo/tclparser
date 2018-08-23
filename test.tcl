@@ -1,8 +1,8 @@
 
 # comments
-setenv ABC abc
+setenv ABCD "abcd"
 
-if { $ABC=="abc" } {
+if { $ABC == "abc" } {
   puts $ABC
 }
 
